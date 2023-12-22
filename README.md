@@ -1,4 +1,4 @@
-# Project-1
+# Brewery
 User Story: 
 As a user I want to find breweries nearby (using a zipcode and inputting radius within x amount of miles from my location, this will be using google map API)
 I want to choose a specific brew type (through a drop down menu or filter (?), this will be using OpenBreweryDB API) 
