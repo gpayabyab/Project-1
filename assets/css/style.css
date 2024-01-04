@@ -3,7 +3,7 @@
     margin: 0;
  }
 body {
-         background-image: url('/assets/img/BeerFlight-400x300.png');
+         background-image: url('../img/BeerFlight-400x300.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
