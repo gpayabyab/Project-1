@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/BeerFlight-400x300.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  font-stretch: 100%;
+}
+
+h1 {
+  font-family: 'Whisper', cursive;
+  color: black;
+  font-weight: 700;
+}
