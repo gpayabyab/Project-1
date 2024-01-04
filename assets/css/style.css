@@ -1,14 +1,23 @@
 *{
     padding: 0;
     margin: 0;
+    background-image: url('../img/BeerFlight-400x300.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
  }
+
+
 body {
-         background-image: url('/assets/img/BeerFlight-400x300.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        text-align: center;
-        font-stretch: 100%;
+       
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-stretch: 100%;
  
 }
 h1 {
@@ -22,7 +31,7 @@ h1 {
     
 }
 h3 {
-   
+  
     font-family: 'Kanit', sans-serif;
     font-size: medium;
     
@@ -30,7 +39,15 @@ h3 {
 button {
     cursor: pointer;
 }
+
+#search-input {
+    font-size: 15px; /* Adjust the size the input box */
+    color: azure;
+}
 footer{
     text-align: center;
     padding: 25px;
 }
+
+
+
