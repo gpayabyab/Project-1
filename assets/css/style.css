@@ -1,15 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
     background-image: url('../img/BeerFlight-400x300.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    
- }
- 
-body {
-       
+    background-size: cover;
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,36 +16,61 @@ body {
     height: 100vh;
     text-align: center;
     font-stretch: 100%;
- 
+
 }
+
 h1 {
     padding: 50px;
     border: 35px;
     font-size: 130px;
     font-weight: 700;
-    font-family:'Cinzel', serif;
+    font-family: 'Cinzel', serif;
     font-family: 'Kanit', sans-serif;
     font-family: 'Whisper', cursive;
-    
+
 }
+
 h3 {
-  
+
     font-family: 'Kanit', sans-serif;
     font-size: medium;
-    
+
 }
+
 button {
     cursor: pointer;
 }
 
 #search-input {
-    font-size: 15px; /* Adjust the size the input box */
+    font-size: 15px;
+    /* Adjust the size the input box */
     color: azure;
 }
-footer{
+
+
+.field-container{
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 250px;
+}
+
+.flex{
+   width: 300px;
+}
+footer {
     text-align: center;
     padding: 25px;
 }
 
 
-
+/*need to figure out how to make the bg image not stretch on mobile device*/
+@media (max-width: 768px) {
+    body {
+        background-image: url('../img/BeerFlight-400x300.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
