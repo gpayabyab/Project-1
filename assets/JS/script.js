@@ -1,4 +1,5 @@
-const citySearchBtn = document.getElementById('city-search-form')
+const citySearchBtn = document.getElementById('city-search-form');
+const zipSeachBtn = document.getElementById('zip-search-form');
 
 function searchBreweriesByCity(event) {
     event.preventDefault();
@@ -17,7 +18,7 @@ function searchBreweriesByCity(event) {
 
         localStorage.setItem('cityBreweryData', JSON.stringify(data))
 
-        window.location.href = './assets/results.html'
+        window.location.href = './assets/cityresults.html'
     })
 
    
@@ -33,7 +34,30 @@ function searchBreweriesByCity(event) {
 
 }
 
+
+function searchBreweriesByZip(event) {
+    event.preventDefault();
+    // capture user input for zip code
+    let zipInput = document.getElementById('zip-input');
+
+    // user input will then be added to the api url
+    let zipApiUrl = 'https://api.openbrewerydb.org/v1/breweries?by_postal=' + zipInput.value;
+
+    // fetch the data from the api. once it returns the inital response. we will need to JSON the data. Once the Data is converted we can then use it to add content to the page
+    fetch(zipApiUrl).then(function (response) {
+        return response.json()
+    }).then(function (data) {
+        console.log(data);
+
+        localStorage.setItem('zipcodeBreweryData', JSON.stringify(data))
+
+        window.location.href = './assets/zipcoderesults.html'
+    })
+
+}
+
+
+
+
 citySearchBtn.addEventListener('submit', searchBreweriesByCity)
-
-
-
+zipSeachBtn.addEventListener('submit', searchBreweriesByZip)
