@@ -18,3 +18,12 @@ h1 {
   font-weight: 700;
 }
 
+#container {
+  overflow: auto; 
+  height: 400px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 10px 0;
+}
