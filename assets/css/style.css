@@ -41,6 +41,10 @@ button {
     cursor: pointer;
 }
 
+.sbutton {
+    font-weight: bold;
+}
+
 #search-input {
     font-size: 15px;
     /* Adjust the size the input box */
