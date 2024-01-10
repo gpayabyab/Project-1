@@ -66,8 +66,12 @@ button {
 footer {
     text-align: center;
     padding: 25px;
+    font-weight: 600;
 }
+#weather-footer{
+    font-size: 20px;
 
+}
 
 /*need to figure out how to make the bg image not stretch on mobile device*/
 @media (max-width: 768px) {
