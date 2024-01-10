@@ -49,10 +49,10 @@ function retrieveStorageZipcode() {
 
 }
 
-
+// call the function
 function goHome() {
     window.location.href = "../index.html";
 }
-
+// the backbutton go back to the home page
 backBtn.addEventListener("click", goHome);
 retrieveStorageZipcode();
