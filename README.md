@@ -35,6 +35,12 @@ To use this application, enter the city or the zipcode that you would like to se
 
 Worked through some coding roadblocks during tutoring sessions with Jose Lopez.
 
+Bulma CSS Framework
+
+BreweryDB API
+
+Weather API
+
 ## License
 
 N/A
