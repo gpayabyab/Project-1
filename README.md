@@ -19,9 +19,11 @@ It is done when I am given brewery options on a new page
 It is done when I am able to also use a random brewery finder
 It is done when I can view the weather on the homepage
 
-Screenshot - 
+Screenshot 1 - ![homepage](assets/img/homepage_screenshot.png)
 
-Link to webpage -
+Screenshot 2 - ![results](assets/img/results_screenshot.png)
+
+Link to webpage - https://gpayabyab.github.io/Project-1/
 
 ## Installation
 
